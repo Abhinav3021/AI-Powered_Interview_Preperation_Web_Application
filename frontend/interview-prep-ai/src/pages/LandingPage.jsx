@@ -39,7 +39,7 @@ const LandingPage = () => {
               Interview Prep AI
             </div>
               { user ? (<ProfileInfoCard/>):(<button 
-                 className="bg-gradient-to-r from-[#FF9324] to-[#cb8947] text-sm font-semibold text-white py-2.5 px-7 rounded-full hover:bg-black hover:text-white transition-colors cursor-pointer"
+                 className="bg-gradient-to-r from-orange-400 to-orange-700 text-sm font-semibold text-white py-2.5 px-7 rounded-full hover:bg-black hover:text-white transition-colors cursor-pointer"
                  onClick={() => setOpenAuthModel(true)}
                   >
                  Login / Sign Up
